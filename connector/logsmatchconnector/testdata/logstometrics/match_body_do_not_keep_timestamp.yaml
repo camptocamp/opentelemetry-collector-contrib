@@ -1,0 +1,289 @@
+resourceMetrics:
+  - resource:
+      attributes:
+        - key: component
+          value:
+            stringValue: api
+        - key: environment
+          value:
+            stringValue: development
+        - key: service
+          value:
+            stringValue: backend
+    scopeMetrics:
+      - metrics:
+          - description: Counts of fatal errors by compoment
+            name: fatal_errors
+            sum:
+              aggregationTemporality: 1
+              dataPoints:
+                - asInt: "1"
+                  timeUnixNano: "1759742685869673277"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869673842"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869674422"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869674988"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869675910"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869676474"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869677006"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869677519"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869678427"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869679017"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869679557"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869680097"
+              isMonotonic: true
+            unit: "1"
+        scope:
+          attributes:
+            - key: commit
+              value:
+                stringValue: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+            - key: source
+              value:
+                stringValue: code.example.com/lib
+          name: lib
+          version: v2
+      - metrics:
+          - description: Counts of fatal errors by compoment
+            name: fatal_errors
+            sum:
+              aggregationTemporality: 1
+              dataPoints:
+                - asInt: "1"
+                  timeUnixNano: "1759742685869664801"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869665377"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869665948"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869666517"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869667858"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869668456"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869668975"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869669495"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869670407"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869671019"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869671561"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869672095"
+              isMonotonic: true
+            unit: "1"
+        scope:
+          attributes:
+            - key: source
+              value:
+                stringValue: code.example.com/sdk
+            - key: url
+              value:
+                stringValue: example.com/sdk
+          name: sdk
+          version: v1
+  - resource:
+      attributes:
+        - key: component
+          value:
+            stringValue: api
+        - key: environment
+          value:
+            stringValue: production
+        - key: service
+          value:
+            stringValue: backend
+    scopeMetrics:
+      - metrics:
+          - description: Counts of fatal errors by compoment
+            name: fatal_errors
+            sum:
+              aggregationTemporality: 1
+              dataPoints:
+                - asInt: "1"
+                  timeUnixNano: "1759742685869656395"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869656952"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869657544"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869658114"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869659053"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869659630"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869660148"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869660673"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869661597"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869662192"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869662753"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869663281"
+              isMonotonic: true
+            unit: "1"
+        scope:
+          attributes:
+            - key: commit
+              value:
+                stringValue: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+            - key: source
+              value:
+                stringValue: code.example.com/lib
+          name: lib
+          version: v2
+      - metrics:
+          - description: Counts of fatal errors by compoment
+            name: fatal_errors
+            sum:
+              aggregationTemporality: 1
+              dataPoints:
+                - asInt: "1"
+                  timeUnixNano: "1759742685869647913"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869648475"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869649328"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869649934"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869650855"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869651426"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869651942"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869652468"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869653416"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869653998"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869654537"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869655076"
+              isMonotonic: true
+            unit: "1"
+        scope:
+          attributes:
+            - key: source
+              value:
+                stringValue: code.example.com/sdk
+            - key: url
+              value:
+                stringValue: example.com/sdk
+          name: sdk
+          version: v1
+  - resource:
+      attributes:
+        - key: environment
+          value:
+            stringValue: production
+        - key: service
+          value:
+            stringValue: frontend
+        - key: version
+          value:
+            stringValue: v1
+    scopeMetrics:
+      - metrics:
+          - description: Counts of fatal errors by compoment
+            name: fatal_errors
+            sum:
+              aggregationTemporality: 1
+              dataPoints:
+                - asInt: "1"
+                  timeUnixNano: "1759742685869639375"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869639956"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869640584"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869641150"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869642077"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869642689"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869643241"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869643762"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869644690"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869645284"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869645808"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869646355"
+              isMonotonic: true
+            unit: "1"
+        scope:
+          attributes:
+            - key: commit
+              value:
+                stringValue: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+            - key: source
+              value:
+                stringValue: code.example.com/lib
+          name: lib
+          version: v2
+      - metrics:
+          - description: Counts of fatal errors by compoment
+            name: fatal_errors
+            sum:
+              aggregationTemporality: 1
+              dataPoints:
+                - asInt: "1"
+                  timeUnixNano: "1759742685869630199"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869631295"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869631917"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869632541"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869633529"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869634140"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869634655"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869635183"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869636230"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869636869"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869637432"
+                - asInt: "1"
+                  timeUnixNano: "1759742685869637970"
+              isMonotonic: true
+            unit: "1"
+        scope:
+          attributes:
+            - key: source
+              value:
+                stringValue: code.example.com/sdk
+            - key: url
+              value:
+                stringValue: example.com/sdk
+          name: sdk
+          version: v1

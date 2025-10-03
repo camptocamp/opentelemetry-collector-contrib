@@ -1,0 +1,1399 @@
+resourceLogs:
+  - resource:
+      attributes:
+        - key: environment
+          value:
+            stringValue: production
+        - key: service
+          value:
+            stringValue: frontend
+        - key: version
+          value:
+            stringValue: v1
+    scopeLogs:
+      - logRecords:
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            observedTimeUnixNano: "11111211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "11111221"
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            timeUnixNano: "11112110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "11112120"
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            observedTimeUnixNano: "11112211"
+            timeUnixNano: "11112210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "11112221"
+            timeUnixNano: "11112220"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            observedTimeUnixNano: "11121211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "11121221"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            timeUnixNano: "11122110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "11122120"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            observedTimeUnixNano: "11122211"
+            timeUnixNano: "11122210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "11122221"
+            timeUnixNano: "11122220"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            observedTimeUnixNano: "11211211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "11211221"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            timeUnixNano: "11212110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "11212120"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            observedTimeUnixNano: "11212211"
+            timeUnixNano: "11212210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "11212221"
+            timeUnixNano: "11212220"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            observedTimeUnixNano: "11221211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "11221221"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            timeUnixNano: "11222110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "11222120"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            observedTimeUnixNano: "11222211"
+            timeUnixNano: "11222210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "11222221"
+            timeUnixNano: "11222220"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            observedTimeUnixNano: "11311211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "11311221"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            timeUnixNano: "11312110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "11312120"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            observedTimeUnixNano: "11312211"
+            timeUnixNano: "11312210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "11312221"
+            timeUnixNano: "11312220"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            observedTimeUnixNano: "11321211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "11321221"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            timeUnixNano: "11322110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "11322120"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            observedTimeUnixNano: "11322211"
+            timeUnixNano: "11322210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "11322221"
+            timeUnixNano: "11322220"
+        scope:
+          attributes:
+            - key: url
+              value:
+                stringValue: example.com/sdk
+            - key: source
+              value:
+                stringValue: code.example.com/sdk
+          name: sdk
+          version: v1
+      - logRecords:
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            observedTimeUnixNano: "12111211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "12111221"
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            timeUnixNano: "12112110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "12112120"
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            observedTimeUnixNano: "12112211"
+            timeUnixNano: "12112210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "12112221"
+            timeUnixNano: "12112220"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            observedTimeUnixNano: "12121211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "12121221"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            timeUnixNano: "12122110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "12122120"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            observedTimeUnixNano: "12122211"
+            timeUnixNano: "12122210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "12122221"
+            timeUnixNano: "12122220"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            observedTimeUnixNano: "12211211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "12211221"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            timeUnixNano: "12212110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "12212120"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            observedTimeUnixNano: "12212211"
+            timeUnixNano: "12212210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "12212221"
+            timeUnixNano: "12212220"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            observedTimeUnixNano: "12221211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "12221221"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            timeUnixNano: "12222110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "12222120"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            observedTimeUnixNano: "12222211"
+            timeUnixNano: "12222210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "12222221"
+            timeUnixNano: "12222220"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            observedTimeUnixNano: "12311211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "12311221"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            timeUnixNano: "12312110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "12312120"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            observedTimeUnixNano: "12312211"
+            timeUnixNano: "12312210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "12312221"
+            timeUnixNano: "12312220"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            observedTimeUnixNano: "12321211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "12321221"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            timeUnixNano: "12322110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "12322120"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            observedTimeUnixNano: "12322211"
+            timeUnixNano: "12322210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "12322221"
+            timeUnixNano: "12322220"
+        scope:
+          attributes:
+            - key: commit
+              value:
+                stringValue: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+            - key: source
+              value:
+                stringValue: code.example.com/lib
+          name: lib
+          version: v2
+  - resource:
+      attributes:
+        - key: environment
+          value:
+            stringValue: production
+        - key: service
+          value:
+            stringValue: backend
+        - key: component
+          value:
+            stringValue: api
+    scopeLogs:
+      - logRecords:
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            observedTimeUnixNano: "21111211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "21111221"
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            timeUnixNano: "21112110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "21112120"
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            observedTimeUnixNano: "21112211"
+            timeUnixNano: "21112210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "21112221"
+            timeUnixNano: "21112220"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            observedTimeUnixNano: "21121211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "21121221"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            timeUnixNano: "21122110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "21122120"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            observedTimeUnixNano: "21122211"
+            timeUnixNano: "21122210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "21122221"
+            timeUnixNano: "21122220"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            observedTimeUnixNano: "21211211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "21211221"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            timeUnixNano: "21212110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "21212120"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            observedTimeUnixNano: "21212211"
+            timeUnixNano: "21212210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "21212221"
+            timeUnixNano: "21212220"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            observedTimeUnixNano: "21221211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "21221221"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            timeUnixNano: "21222110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "21222120"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            observedTimeUnixNano: "21222211"
+            timeUnixNano: "21222210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "21222221"
+            timeUnixNano: "21222220"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            observedTimeUnixNano: "21311211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "21311221"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            timeUnixNano: "21312110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "21312120"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            observedTimeUnixNano: "21312211"
+            timeUnixNano: "21312210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "21312221"
+            timeUnixNano: "21312220"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            observedTimeUnixNano: "21321211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "21321221"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            timeUnixNano: "21322110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "21322120"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            observedTimeUnixNano: "21322211"
+            timeUnixNano: "21322210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "21322221"
+            timeUnixNano: "21322220"
+        scope:
+          attributes:
+            - key: url
+              value:
+                stringValue: example.com/sdk
+            - key: source
+              value:
+                stringValue: code.example.com/sdk
+          name: sdk
+          version: v1
+      - logRecords:
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            observedTimeUnixNano: "22111211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "22111221"
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            timeUnixNano: "22112110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "22112120"
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            observedTimeUnixNano: "22112211"
+            timeUnixNano: "22112210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "22112221"
+            timeUnixNano: "22112220"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            observedTimeUnixNano: "22121211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "22121221"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            timeUnixNano: "22122110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "22122120"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            observedTimeUnixNano: "22122211"
+            timeUnixNano: "22122210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "22122221"
+            timeUnixNano: "22122220"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            observedTimeUnixNano: "22211211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "22211221"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            timeUnixNano: "22212110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "22212120"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            observedTimeUnixNano: "22212211"
+            timeUnixNano: "22212210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "22212221"
+            timeUnixNano: "22212220"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            observedTimeUnixNano: "22221211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "22221221"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            timeUnixNano: "22222110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "22222120"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            observedTimeUnixNano: "22222211"
+            timeUnixNano: "22222210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "22222221"
+            timeUnixNano: "22222220"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            observedTimeUnixNano: "22311211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "22311221"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            timeUnixNano: "22312110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "22312120"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            observedTimeUnixNano: "22312211"
+            timeUnixNano: "22312210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "22312221"
+            timeUnixNano: "22312220"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            observedTimeUnixNano: "22321211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "22321221"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            timeUnixNano: "22322110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "22322120"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            observedTimeUnixNano: "22322211"
+            timeUnixNano: "22322210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "22322221"
+            timeUnixNano: "22322220"
+        scope:
+          attributes:
+            - key: source
+              value:
+                stringValue: code.example.com/lib
+            - key: commit
+              value:
+                stringValue: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+          name: lib
+          version: v2
+  - resource:
+      attributes:
+        - key: environment
+          value:
+            stringValue: development
+        - key: service
+          value:
+            stringValue: backend
+        - key: component
+          value:
+            stringValue: api
+    scopeLogs:
+      - logRecords:
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            observedTimeUnixNano: "31111211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "31111221"
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            timeUnixNano: "31112110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "31112120"
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            observedTimeUnixNano: "31112211"
+            timeUnixNano: "31112210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "31112221"
+            timeUnixNano: "31112220"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            observedTimeUnixNano: "31121211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "31121221"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            timeUnixNano: "31122110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "31122120"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            observedTimeUnixNano: "31122211"
+            timeUnixNano: "31122210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "31122221"
+            timeUnixNano: "31122220"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            observedTimeUnixNano: "31211211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "31211221"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            timeUnixNano: "31212110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "31212120"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            observedTimeUnixNano: "31212211"
+            timeUnixNano: "31212210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "31212221"
+            timeUnixNano: "31212220"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            observedTimeUnixNano: "31221211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "31221221"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            timeUnixNano: "31222110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "31222120"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            observedTimeUnixNano: "31222211"
+            timeUnixNano: "31222210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "31222221"
+            timeUnixNano: "31222220"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            observedTimeUnixNano: "31311211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "31311221"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            timeUnixNano: "31312110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "31312120"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            observedTimeUnixNano: "31312211"
+            timeUnixNano: "31312210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "31312221"
+            timeUnixNano: "31312220"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            observedTimeUnixNano: "31321211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "31321221"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            timeUnixNano: "31322110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "31322120"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            observedTimeUnixNano: "31322211"
+            timeUnixNano: "31322210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "31322221"
+            timeUnixNano: "31322220"
+        scope:
+          attributes:
+            - key: url
+              value:
+                stringValue: example.com/sdk
+            - key: source
+              value:
+                stringValue: code.example.com/sdk
+          name: sdk
+          version: v1
+      - logRecords:
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            observedTimeUnixNano: "32111211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "32111221"
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            timeUnixNano: "32112110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "32112120"
+          - body:
+              stringValue: 'INFO: operation completed successfully'
+            observedTimeUnixNano: "32112211"
+            timeUnixNano: "32112210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "32112221"
+            timeUnixNano: "32112220"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            observedTimeUnixNano: "32121211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "32121221"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            timeUnixNano: "32122110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "32122120"
+          - body:
+              stringValue: 'panic: unrecoverable error'
+            observedTimeUnixNano: "32122211"
+            timeUnixNano: "32122210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: 'panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "32122221"
+            timeUnixNano: "32122220"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            observedTimeUnixNano: "32211211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "32211221"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            timeUnixNano: "32212110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "32212120"
+          - body:
+              stringValue: '[auth] INFO: operation completed successfully'
+            observedTimeUnixNano: "32212211"
+            timeUnixNano: "32212210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "32212221"
+            timeUnixNano: "32212220"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            observedTimeUnixNano: "32221211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "32221221"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            timeUnixNano: "32222110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "32222120"
+          - body:
+              stringValue: '[auth] panic: unrecoverable error'
+            observedTimeUnixNano: "32222211"
+            timeUnixNano: "32222210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[auth] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "32222221"
+            timeUnixNano: "32222220"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            observedTimeUnixNano: "32311211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "32311221"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            timeUnixNano: "32312110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            timeUnixNano: "32312120"
+          - body:
+              stringValue: '[payment] INFO: operation completed successfully'
+            observedTimeUnixNano: "32312211"
+            timeUnixNano: "32312210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] INFO: operation completed successfully'
+            body: {}
+            observedTimeUnixNano: "32312221"
+            timeUnixNano: "32312220"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            observedTimeUnixNano: "32321211"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "32321221"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            timeUnixNano: "32322110"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            timeUnixNano: "32322120"
+          - body:
+              stringValue: '[payment] panic: unrecoverable error'
+            observedTimeUnixNano: "32322211"
+            timeUnixNano: "32322210"
+          - attributes:
+              - key: message
+                value:
+                  stringValue: '[payment] panic: unrecoverable error'
+            body: {}
+            observedTimeUnixNano: "32322221"
+            timeUnixNano: "32322220"
+        scope:
+          attributes:
+            - key: source
+              value:
+                stringValue: code.example.com/lib
+            - key: commit
+              value:
+                stringValue: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+          name: lib
+          version: v2

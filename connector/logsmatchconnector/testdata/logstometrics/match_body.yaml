@@ -1,0 +1,253 @@
+resourceMetrics:
+  - resource:
+      attributes:
+        - key: component
+          value:
+            stringValue: api
+        - key: environment
+          value:
+            stringValue: development
+        - key: service
+          value:
+            stringValue: backend
+    scopeMetrics:
+      - metrics:
+          - description: Counts of fatal errors by compoment
+            name: fatal_errors
+            sum:
+              aggregationTemporality: 1
+              dataPoints:
+                - asInt: "1"
+                  timeUnixNano: "32121211"
+                - asInt: "1"
+                  timeUnixNano: "32122110"
+                - asInt: "1"
+                  timeUnixNano: "32122210"
+                - asInt: "1"
+                  timeUnixNano: "32221211"
+                - asInt: "1"
+                  timeUnixNano: "32222110"
+                - asInt: "1"
+                  timeUnixNano: "32222210"
+                - asInt: "1"
+                  timeUnixNano: "32321211"
+                - asInt: "1"
+                  timeUnixNano: "32322110"
+                - asInt: "1"
+                  timeUnixNano: "32322210"
+              isMonotonic: true
+            unit: "1"
+        scope:
+          attributes:
+            - key: commit
+              value:
+                stringValue: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+            - key: source
+              value:
+                stringValue: code.example.com/lib
+          name: lib
+          version: v2
+      - metrics:
+          - description: Counts of fatal errors by compoment
+            name: fatal_errors
+            sum:
+              aggregationTemporality: 1
+              dataPoints:
+                - asInt: "1"
+                  timeUnixNano: "31121211"
+                - asInt: "1"
+                  timeUnixNano: "31122110"
+                - asInt: "1"
+                  timeUnixNano: "31122210"
+                - asInt: "1"
+                  timeUnixNano: "31221211"
+                - asInt: "1"
+                  timeUnixNano: "31222110"
+                - asInt: "1"
+                  timeUnixNano: "31222210"
+                - asInt: "1"
+                  timeUnixNano: "31321211"
+                - asInt: "1"
+                  timeUnixNano: "31322110"
+                - asInt: "1"
+                  timeUnixNano: "31322210"
+              isMonotonic: true
+            unit: "1"
+        scope:
+          attributes:
+            - key: source
+              value:
+                stringValue: code.example.com/sdk
+            - key: url
+              value:
+                stringValue: example.com/sdk
+          name: sdk
+          version: v1
+  - resource:
+      attributes:
+        - key: component
+          value:
+            stringValue: api
+        - key: environment
+          value:
+            stringValue: production
+        - key: service
+          value:
+            stringValue: backend
+    scopeMetrics:
+      - metrics:
+          - description: Counts of fatal errors by compoment
+            name: fatal_errors
+            sum:
+              aggregationTemporality: 1
+              dataPoints:
+                - asInt: "1"
+                  timeUnixNano: "22121211"
+                - asInt: "1"
+                  timeUnixNano: "22122110"
+                - asInt: "1"
+                  timeUnixNano: "22122210"
+                - asInt: "1"
+                  timeUnixNano: "22221211"
+                - asInt: "1"
+                  timeUnixNano: "22222110"
+                - asInt: "1"
+                  timeUnixNano: "22222210"
+                - asInt: "1"
+                  timeUnixNano: "22321211"
+                - asInt: "1"
+                  timeUnixNano: "22322110"
+                - asInt: "1"
+                  timeUnixNano: "22322210"
+              isMonotonic: true
+            unit: "1"
+        scope:
+          attributes:
+            - key: commit
+              value:
+                stringValue: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+            - key: source
+              value:
+                stringValue: code.example.com/lib
+          name: lib
+          version: v2
+      - metrics:
+          - description: Counts of fatal errors by compoment
+            name: fatal_errors
+            sum:
+              aggregationTemporality: 1
+              dataPoints:
+                - asInt: "1"
+                  timeUnixNano: "21121211"
+                - asInt: "1"
+                  timeUnixNano: "21122110"
+                - asInt: "1"
+                  timeUnixNano: "21122210"
+                - asInt: "1"
+                  timeUnixNano: "21221211"
+                - asInt: "1"
+                  timeUnixNano: "21222110"
+                - asInt: "1"
+                  timeUnixNano: "21222210"
+                - asInt: "1"
+                  timeUnixNano: "21321211"
+                - asInt: "1"
+                  timeUnixNano: "21322110"
+                - asInt: "1"
+                  timeUnixNano: "21322210"
+              isMonotonic: true
+            unit: "1"
+        scope:
+          attributes:
+            - key: source
+              value:
+                stringValue: code.example.com/sdk
+            - key: url
+              value:
+                stringValue: example.com/sdk
+          name: sdk
+          version: v1
+  - resource:
+      attributes:
+        - key: environment
+          value:
+            stringValue: production
+        - key: service
+          value:
+            stringValue: frontend
+        - key: version
+          value:
+            stringValue: v1
+    scopeMetrics:
+      - metrics:
+          - description: Counts of fatal errors by compoment
+            name: fatal_errors
+            sum:
+              aggregationTemporality: 1
+              dataPoints:
+                - asInt: "1"
+                  timeUnixNano: "12121211"
+                - asInt: "1"
+                  timeUnixNano: "12122110"
+                - asInt: "1"
+                  timeUnixNano: "12122210"
+                - asInt: "1"
+                  timeUnixNano: "12221211"
+                - asInt: "1"
+                  timeUnixNano: "12222110"
+                - asInt: "1"
+                  timeUnixNano: "12222210"
+                - asInt: "1"
+                  timeUnixNano: "12321211"
+                - asInt: "1"
+                  timeUnixNano: "12322110"
+                - asInt: "1"
+                  timeUnixNano: "12322210"
+              isMonotonic: true
+            unit: "1"
+        scope:
+          attributes:
+            - key: commit
+              value:
+                stringValue: 01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b
+            - key: source
+              value:
+                stringValue: code.example.com/lib
+          name: lib
+          version: v2
+      - metrics:
+          - description: Counts of fatal errors by compoment
+            name: fatal_errors
+            sum:
+              aggregationTemporality: 1
+              dataPoints:
+                - asInt: "1"
+                  timeUnixNano: "11121211"
+                - asInt: "1"
+                  timeUnixNano: "11122110"
+                - asInt: "1"
+                  timeUnixNano: "11122210"
+                - asInt: "1"
+                  timeUnixNano: "11221211"
+                - asInt: "1"
+                  timeUnixNano: "11222110"
+                - asInt: "1"
+                  timeUnixNano: "11222210"
+                - asInt: "1"
+                  timeUnixNano: "11321211"
+                - asInt: "1"
+                  timeUnixNano: "11322110"
+                - asInt: "1"
+                  timeUnixNano: "11322210"
+              isMonotonic: true
+            unit: "1"
+        scope:
+          attributes:
+            - key: source
+              value:
+                stringValue: code.example.com/sdk
+            - key: url
+              value:
+                stringValue: example.com/sdk
+          name: sdk
+          version: v1
